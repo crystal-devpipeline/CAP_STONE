@@ -1,0 +1,8 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-container .navbar {
+  display: flex;
+}/*# sourceMappingURL=elements.css.map */

@@ -1,0 +1,178 @@
+
+.page-container {
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0,0,0, .2);
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+
+    .navbar-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 80px;
+        justify-content: space-around;
+        text-decoration: none;
+        padding: .1s;
+        vertical-align: middle;
+        align-items: center;
+        background-color: transparent;
+        color: black;
+        position: fixed;
+        top: 0;
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+
+        .nav-left {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+
+            a 
+            {
+                text-decoration: none;
+            }
+        }
+        .nav-right {
+            display: flex;
+            text-decoration: none;
+            justify-content: space-between;
+
+            button {
+                background-color: #e91e63;
+                border: none;
+                border-radius: 30px;
+                color: white;
+            }
+        }
+    }
+
+    .hero-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 872px;
+        align-items: center;
+        background-image: url("../images/mountain-image.jpg");
+        background-size: cover;
+        width: 100%;
+        
+
+        h1 {
+            color: white;
+            padding: 0 25%;
+            font-size: 60px;
+            text-align: center;
+            font-weight: 550;
+
+        }
+        p {
+            color: white;
+            //padding: ;
+        }
+        button{
+            background-color: #e91e63;
+            border: none;
+            padding: 15px 33px;
+            border-radius: 3px;
+            color: white;
+            margin-top: 60px;
+        }
+       
+    }  
+
+    .main-container{
+        display: flex;
+        //flex-direction: column;
+        justify-content: center;
+        //padding:
+        height: 500px;
+        // align-items: center;
+        background-size: cover;
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
+        margin: -60px 15px 0;
+        position: 0 0 0 0;
+
+        h2 {
+            text-align: center;
+        }
+
+    }
+        
+
+    .what-we-stand-for-container {
+        //display: flex;
+        //  flex-direction: column;
+        align-items: center;
+
+        .stand-for-cards-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr)
+            ;
+            .card-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: large;
+
+                p {
+                    color: #999999;
+                    font-size: 14px;
+                    text-align: center;
+                    margin: 0 0 10px;
+                    line-height: 1.618;
+
+                }
+            }
+        
+            
+        }
+    }
+
+
+
+    
+        .about-hestia-container {
+            display: flex;
+
+            h2{
+                text-align: center;
+                color: white;
+            }
+            img {
+                background-attachment: fixed;
+
+            }
+        }
+        .blog-container {
+            display: flex;
+            .uncategorized-card-worth-a-thousand-words {
+                display: flex;
+            }
+            .uncategorized-card-elements {
+                display: flex;
+            }
+            .uncategorized-more-tags {
+                display: flex;
+            }                                                                                      
+        }   
+            
+        .get-in-touch-container {
+            display: flex;
+        }
+    }
+    .footer {
+        display: flex;
+    }
+
+
+
+

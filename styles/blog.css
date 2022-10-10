@@ -1,0 +1,91 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.page-container .navbar-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  padding: 0.1s;
+  vertical-align: middle;
+  align-items: center;
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+}
+.page-container .navbar-container .nav-left a {
+  text-decoration: none;
+}
+.page-container .navbar-container .nav-left a h3 {
+  display: flex;
+  text-align: center;
+  font-size: 12px;
+  padding: 0 15px;
+  position: relative;
+  height: auto;
+}
+.page-container .navbar-container .nav-right {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.page-container .navbar-container .nav-right button {
+  background-color: #e91e63;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+.page-container .hero-background-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  background-color: #e91e63;
+  background-size: cover;
+  width: 100%;
+  border-radius: 25px;
+  --wp--preset--duotone--dark-grayscale: url(#wp-duotone-dark-grayscale);
+  --wp--preset--duotone--grayscale: url(#wp-duotone-grayscale);
+  --wp--preset--duotone--purple-yellow: url(#wp-duotone-purple-yellow);
+  --wp--preset--duotone--blue-red: url(#wp-duotone-blue-red);
+  --wp--preset--duotone--midnight: url(#wp-duotone-midnight);
+  --wp--preset--duotone--magenta-yellow: url(#wp-duotone-magenta-yellow);
+  --wp--preset--duotone--purple-green: url(#wp-duotone-purple-green);
+  --wp--preset--duotone--blue-orange: url(#wp-duotone-blue-orange);
+  --wp--preset--font-size--small: 13px;
+  --wp--preset--font-size--medium: 20px;
+  --wp--preset--font-size--large: 36px;
+  --wp--preset--font-size--x-large: 42px;
+  --wp--preset--spacing--20: 0.44rem;
+  --wp--preset--spacing--30: 0.67rem;
+  --wp--preset--spacing--40: 1rem;
+  --wp--preset--spacing--50: 1.5rem;
+  --wp--preset--spacing--60: 2.25rem;
+  --wp--preset--spacing--70: 3.38rem;
+  --wp--preset--spacing--80: 5.06rem;
+}
+.page-container .main-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  background-color: blue;
+  border-radius: 30px;
+  margin: -60px 15px 0;
+  position: 0 0 0 0;
+}
+.page-container .main-content-container .worth-a-thousand-words-card {
+  display: flex;
+  height: 135px;
+  width: 720px;
+}/*# sourceMappingURL=blog.css.map */
