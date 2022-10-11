@@ -26,47 +26,7 @@ h2, h6 {
   justify-content: space-between;
 }
 
-.page-container {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.2);
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-}
-.page-container .navbar-container {
-  display: flex;
-  flex-direction: row;
-  height: 90px;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  color: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-}
-.page-container .navbar-container a {
-  text-decoration: none;
-  padding: 10px;
-  color: rgb(133, 133, 133);
-  font-weight: 400;
-}
-.page-container .navbar-container .nav-left a {
-  color: #848484;
-}
-.page-container .navbar-container .nav-right {
-  display: flex;
-  justify-content: space-between;
-}
-.page-container .navbar-container .nav-right button {
-  background-color: #e91e63;
-  border: none;
-  border-radius: 30px;
-  color: white;
-  justify-content: space-between;
-  width: 70px;
-}
-.page-container .hero-header {
+.hero-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,11 +35,12 @@ h2, h6 {
   width: 100%;
   height: 400px;
 }
-.page-container .hero-header h1 {
+.hero-header h1 {
   color: white;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
-.page-container .main-content-container {
+
+.main-content-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,32 +50,37 @@ h2, h6 {
   box-shadow: 20px 20px 50px grey;
   margin: -60px 60px 0 60px;
 }
-.page-container .main-content-container .card-blog {
+.main-content-container .card-blog {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
   margin-left: 15.15%;
   width: 80.3%;
 }
-.page-container .main-content-container .card-blog a {
+.main-content-container .card-blog a {
   text-decoration: none;
+  background-color: orange;
 }
-.page-container .main-content-container .card-blog a h6 {
+.main-content-container .card-blog a h6 {
+  background-color: aqua;
   color: purple;
 }
-.page-container .main-content-container .card-blog h2 {
+.main-content-container .card-blog h2 {
+  background-color: pink;
   font-weight: 600;
   color: rgb(84, 83, 83);
 }
-.page-container .main-content-container .card-blog p {
+.main-content-container .card-blog p {
+  background-color: yellow;
   font-weight: 100;
   color: rgb(161, 158, 158);
 }
-.page-container .main-content-container .card-blog p b {
+.main-content-container .card-blog p b {
   font-weight: 700;
   color: rgb(84, 83, 83);
 }
-.page-container .footer {
+
+.footer {
   display: flex;
   height: 100px;
   width: 100%;
@@ -123,12 +89,12 @@ h2, h6 {
   align-items: center;
   color: white;
 }
-.page-container .footer a {
+.footer a {
   text-decoration: none;
   color: inherit;
 }
-.page-container .footer .footer-left {
+.footer .footer-left {
   width: 180px;
   display: flex;
   justify-content: space-between;
-}/*# sourceMappingURL=blog.css.map */
+}/*# sourceMappingURL=elements.css.map */

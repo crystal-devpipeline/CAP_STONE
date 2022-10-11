@@ -7,3 +7,24 @@ body {
 h2, h6 {
   font-family: "Roboto Slab","Times New Roman",serif;
 }
+
+.footer {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: darkgray;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  .footer-left {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
