@@ -1,0 +1,39 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 0.1s;
+  vertical-align: middle;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  position: fixed;
+  top: 0;
+}
+.navbar-container a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+.navbar-container .nav-left {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.navbar-container .nav-left a {
+  text-decoration: none;
+}
+.navbar-container .nav-right {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.navbar-container .nav-right button {
+  background-color: #e91e63;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}/*# sourceMappingURL=navbar-common.css.map */

@@ -1,91 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+body {
+  margin: 0;
+}
+
+h2, h6 {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
 .page-container {
   display: flex;
   flex-direction: column;
-  height: auto;
-  width: 100vw;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 .page-container .navbar-container {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: 80px;
-  justify-content: center;
-  padding: 0.1s;
-  vertical-align: middle;
+  height: 90px;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
   color: black;
   position: fixed;
   top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.page-container .navbar-container a {
+  text-decoration: none;
+  color: inherit;
+  width: 100px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #848484;
+  font-weight: lighter;
 }
 .page-container .navbar-container .nav-left a {
-  text-decoration: none;
-}
-.page-container .navbar-container .nav-left a h3 {
-  display: flex;
-  text-align: center;
-  font-size: 12px;
-  padding: 0 15px;
-  position: relative;
-  height: auto;
+  color: #848484;
 }
 .page-container .navbar-container .nav-right {
   display: flex;
-  text-decoration: none;
   justify-content: space-between;
 }
 .page-container .navbar-container .nav-right button {
-  background-color: #e91e63;
+  background-color: black;
   border: none;
   border-radius: 30px;
   color: white;
+  justify-content: space-between;
+  width: 70px;
 }
-.page-container .hero-background-img {
+.page-container .hero-header {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  height: 500px;
   align-items: center;
   background-color: #e91e63;
-  background-size: cover;
+  background-size: 100%;
   width: 100%;
-  border-radius: 25px;
-  --wp--preset--duotone--dark-grayscale: url(#wp-duotone-dark-grayscale);
-  --wp--preset--duotone--grayscale: url(#wp-duotone-grayscale);
-  --wp--preset--duotone--purple-yellow: url(#wp-duotone-purple-yellow);
-  --wp--preset--duotone--blue-red: url(#wp-duotone-blue-red);
-  --wp--preset--duotone--midnight: url(#wp-duotone-midnight);
-  --wp--preset--duotone--magenta-yellow: url(#wp-duotone-magenta-yellow);
-  --wp--preset--duotone--purple-green: url(#wp-duotone-purple-green);
-  --wp--preset--duotone--blue-orange: url(#wp-duotone-blue-orange);
-  --wp--preset--font-size--small: 13px;
-  --wp--preset--font-size--medium: 20px;
-  --wp--preset--font-size--large: 36px;
-  --wp--preset--font-size--x-large: 42px;
-  --wp--preset--spacing--20: 0.44rem;
-  --wp--preset--spacing--30: 0.67rem;
-  --wp--preset--spacing--40: 1rem;
-  --wp--preset--spacing--50: 1.5rem;
-  --wp--preset--spacing--60: 2.25rem;
-  --wp--preset--spacing--70: 3.38rem;
-  --wp--preset--spacing--80: 5.06rem;
+  height: 400px;
+}
+.page-container .hero-header h1 {
+  color: white;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 .page-container .main-content-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
   background-size: cover;
-  width: 100%;
-  background-color: blue;
-  border-radius: 30px;
-  margin: -60px 15px 0;
-  position: 0 0 0 0;
+  background-color: white;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 20px 20px 50px grey;
+  margin: -60px 60px 0 60px;
 }
-.page-container .main-content-container .worth-a-thousand-words-card {
+.page-container .main-content-container .card-blog {
   display: flex;
-  height: 135px;
-  width: 720px;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 15.15%;
+  width: 80.3%;
+}
+.page-container .main-content-container .card-blog a {
+  text-decoration: none;
+  background-color: orange;
+}
+.page-container .main-content-container .card-blog a h6 {
+  background-color: aqua;
+  color: purple;
+}
+.page-container .main-content-container .card-blog h2 {
+  background-color: pink;
+  font-weight: 600;
+  color: rgb(84, 83, 83);
+}
+.page-container .main-content-container .card-blog p {
+  background-color: yellow;
+  font-weight: 100;
+  color: rgb(161, 158, 158);
+}
+.page-container .main-content-container .card-blog p b {
+  font-weight: 700;
+  color: rgb(84, 83, 83);
+}
+.page-container .footer {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: darkgray;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.page-container .footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.page-container .footer .footer-left {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=blog.css.map */
